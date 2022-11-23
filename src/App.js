@@ -1,8 +1,14 @@
 import React from "react";
 import { View, StyleSheet, SafeAreaView } from "react-native";
 
-import ListaProdutos from "./components/produtos/ListaProdutos";
-import ListaProdutosV2 from "./components/produtos/ListaProdutosV2";
+import Mega from "./components/mega/Mega";
+// import FlexBoxV4 from "./components/layout/FlexBoxV4";
+// import FlexBoxV3 from "./components/layout/FlexBoxV3";
+// import FlexBoxV2 from "./components/layout/FlexBoxV2";
+// import FlexBoxV1 from "./components/layout/FlexBoxV1";
+// import DigiteSeuNome from "./components/DigiteSeuNome";
+// import ListaProdutos from "./components/produtos/ListaProdutos";
+// import ListaProdutosV2 from "./components/produtos/ListaProdutosV2";
 // import UsuarioLogado from "./components/UsuarioLogado";
 // import Familia from "./components/relacao/Familia";
 // import Membro from "./components/relacao/Membro";
@@ -21,8 +27,14 @@ import ListaProdutosV2 from "./components/produtos/ListaProdutosV2";
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <ListaProdutosV2 />
+    <Mega qtdeNumeros={7} />
     {/*
+    <FlexBoxV4 />
+    <FlexBoxV3 />
+    <FlexBoxV2 />
+    <FlexBoxV1 />
+    <DigiteSeuNome />
+    <ListaProdutosV2 />
     <ListaProdutos />
     <UsuarioLogado usuario={{ nome: "Pedro", email: "pedro@teste.com" }} />
     <UsuarioLogado usuario={{ nome: "Ana" }} />
